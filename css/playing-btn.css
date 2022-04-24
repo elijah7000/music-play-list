@@ -1,0 +1,36 @@
+.playing-btn{
+    display: flex;
+    justify-content: space-around;   
+    margin-top: 50px;
+}
+
+.playing-btn__column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.playing-btn__column:first-child{
+    font-size: 13px;
+    opacity: 0.3;
+}
+.playing-btn__column:nth-child(2){
+    font-size: 20px;
+}
+.playing-btn__column:nth-child(3){
+    font-size: 15px;
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: black;
+}
+.playing-btn__column:nth-child(4){
+    font-size: 20px;
+}
+
+.playing-btn__column:last-child{
+    font-size: 13px;
+    opacity: 0.3;
+}
